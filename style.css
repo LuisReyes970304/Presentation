@@ -229,7 +229,7 @@ section main {
 
 .example_3 {
     border-radius: 5px;
-    height: 90px;
+    height: 100%;
     width: 50%;
 }
 

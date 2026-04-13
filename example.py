@@ -5,7 +5,7 @@ class Girl:
         self.legs = "legs"
 
     def see(self):
-        return f"{self.name} uses her beautiful {self.eyes_color} to see"
+        return f"{self.name} uses her beautiful {self.eyes_color} eyes to see"
     
     def walk(self):
         return f"{self.name} uses her {self.legs} to walk"

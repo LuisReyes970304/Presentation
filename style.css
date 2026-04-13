@@ -177,11 +177,12 @@ section main {
     padding-top: 20px;
     text-align: center;
     color: var(--div-color);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #definition aside p {
-    padding: 20px;
+    padding: 25px;
+    font-size: 20px;
 }
 
 #definition aside ul li {
@@ -221,5 +222,60 @@ section main {
     width: 50%;
 }
 
+/* This is the second section class escalera.py */
 
-/*This is the second section class definition*/
+#escalator {
+    display: flex;
+}
+
+#escalator aside h3 {
+    padding-top: 30px;
+    text-align: center;
+    color: var(--div-color);
+    font-size: 30px;
+}
+
+#escalator aside h4 {
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: var(--div-color);
+}
+
+#escalator aside p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#escalator aside ul li {
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+#escalator main {
+    overflow: auto;
+}
+
+#escalator main h2 {
+    color: var(--div-color);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* This is the footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: var(--div-color);
+    color: var(--letter-color);
+}
+
+footer p {
+    margin: 30px;
+}

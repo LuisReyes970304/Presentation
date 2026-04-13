@@ -31,7 +31,7 @@
             let's understand what a class is and how it works.
         </p>
     </div>
-    <div id="first", style="height: 80px;"></div>
+    <div id="first" style="height: 80px;"></div>
     <section id="definition">
         <aside>
             <h3>What is a class?</h3>
@@ -63,16 +63,34 @@
             </div>
         </main>
     </section>
-    <div id="second", style="height: 80px;"></div>
-    <section id="escalera">
+    <div id="second" style="height: 80px;"></div>
+    <section id="escalator">
         <aside>
-
+            <h3>Escalera class</h3>
+            <p>
+                This class is a template of a escalator that goes downstairs.
+                It has five floors and as attributes and a <b>piso_actual</b> that at the beggining is empty because is waiting for the user to specify it. 
+                <br>
+                This means that once the user select the floor this empty attribute is going to be replaced for that selection.
+            </p>
+            <h4>mostrar_piso</h4>
+            <p>
+                This is the method that show the current floor in which the user is, as you can see it includes the <b>self.piso_actual</b> so when we call this method is going to shows the current floor.
+            </p>
+            <h4>especificar_piso</h4>
+            <p>
+                This method is asking you for selecting the floor in which you are, so once you do it, the attribute <b>self.piso_actual</b> is going to be replaced for that option and then it will becomes in a integer.
+            </p>
+            <h4>bajar_seguir_bajando</h4>
+            <p>
+                This method wants to know if you want to keep going downstairs or if you want to stop
+            </p>
         </aside>
         <main>
 
         </main>
     </section>
-    <div id="third", style="height: 80px;"></div>
+    <div id="third" style="height: 80px;"></div>
     <section>
         <aside>
 
@@ -81,6 +99,13 @@
 
         </main>
     </section>
+    <footer>
+        <p>
+            <b>Author:</b> Luis Rafael Reyes Caro.
+            <br>
+            <b>Year:</b> 2026.
+        </p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     width: 100vw;
 }
-/* 
+
 #popup_message {
     position: fixed;
     top: 50%;
@@ -27,17 +27,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
     width: 50%;
     height: 50vh;
     background-color: var(--div-color);
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     z-index: 1111;
     border-radius: 18px;
     border: 12px double var(--aside);
     box-shadow: 1px 1px 15px 1px rgb(0,0,0.2);
-
-} */
+}
 
 #popup_message:hover {
     border: 12px double var(--hover);
@@ -247,20 +247,46 @@ section main {
     font-size: 20px;
 }
 
-#escalator aside ul li {
-    object-fit: cover;
-    margin-left: 30px;
-}
-
 #escalator main {
     overflow: auto;
 }
 
-#escalator main h2 {
+#escalator main img {
+    border-radius: 5px;
+}
+
+/* This is the main */
+
+#main {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#main aside h3 {
+    padding-top: 30px;
+    text-align: center;
     color: var(--div-color);
     font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
+}
+
+#main aside h4 {
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: var(--div-color);
+}
+
+#main aside p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#main main {
+    overflow: auto;
+}
+
+#main main img {
+    border-radius: 5px;
 }
 
 /* This is the footer */
@@ -275,6 +301,8 @@ footer {
     background-color: var(--div-color);
     color: var(--letter-color);
 }
+
+/* This is the popup bye message */
 
 footer p {
     margin: 30px;

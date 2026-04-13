@@ -160,6 +160,10 @@ section aside {
     border-radius: 5px;
 }
 
+section aside:hover {
+    box-shadow: 1px 1px 15px 10px var(--hover);
+}
+
 section main {
     display: flex;
     flex-direction: column;
@@ -169,6 +173,10 @@ section main {
     border-radius: 5px;
     padding: 20px;
     gap: 10px;
+}
+
+section main:hover {
+    box-shadow: 1px 1px 15px 10px var(--hover);
 }
 
 

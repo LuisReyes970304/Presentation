@@ -54,6 +54,11 @@ body {
     font-size: large;
     font-weight: 1000;
 }
+
+b:hover {
+    color: yellow;
+}
+
 /****************THIS IS THE HEADER COMPOSITION******************/
 
 .main_header {
@@ -188,6 +193,12 @@ section main {
 #definition aside ul li {
     object-fit: cover;
     margin-left: 30px;
+}
+
+#definition aside ul li:hover {
+    object-fit: cover;
+    margin-left: 30px;
+    color:yellow;
 }
 
 #definition main h2 {
